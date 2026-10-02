@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "haunteditems",
+	"version": "${version}",
+	"name": "Haunted Items",
+	"description": "Your inventory is haunted. Every so often an item whispers, two items swap places, or you hear footsteps behind you.",
+	"authors": ["Hybridash"],
+	"contact": {
+		"sources": "https://github.com/Hybridash/HauntedItems",
+		"issues": "https://github.com/Hybridash/HauntedItems/issues"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.hybridash.haunteditems.HauntedItems"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
